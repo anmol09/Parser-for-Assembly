@@ -4,6 +4,12 @@
 
 using namespace std;
 
+struct Label {
+	char cLabel[256];
+	bool bInitialize;
+	int Line;
+	int Value;
+};
 
 void setArray(char c[]) {
 	for (int i = 0; c[i] != '\0'; i++) {
